@@ -1,5 +1,7 @@
 # geolite2fountries
-Scripts for filtering selected countries
+Scripts for filtering selected countries.
+## the use case
+maxminddb-golang seems to be quite slow when running on a full version of GeoLite2-Country.mmdb. The use case I have here is only checking if a user is from Vietnam. The service responds much faster with only records for Vietnam.
 
 # Install
 ```bash
